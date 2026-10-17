@@ -1,6 +1,6 @@
 import Link from 'next/link'
 import { getMovieById } from '@/lib/omdb'
-
+export const dynamic = 'force-dynamic'
 
 const POPULAR_IDS = [
   'tt0111161', // The Shawshank Redemption

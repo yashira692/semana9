@@ -1,5 +1,5 @@
 import axios from 'axios'
-
+export const dynamic = 'force-dynamic'
 interface Pokemon {
   name: string
   sprites: {

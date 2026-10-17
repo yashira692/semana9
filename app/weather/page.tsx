@@ -1,6 +1,6 @@
 import axios from 'axios'
 import ClientWeatherWidget from './ClientWeatherWidget'
-
+export const dynamic = 'force-dynamic'
 interface WeatherData {
   current_weather: {
     temperature: number
